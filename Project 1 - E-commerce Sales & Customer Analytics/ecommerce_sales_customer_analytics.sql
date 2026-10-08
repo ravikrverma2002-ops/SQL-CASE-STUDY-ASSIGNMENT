@@ -348,45 +348,7 @@ WHERE spending_decile = 1
 ORDER BY total_spending DESC;
 
 
-/* Extra 2. Month-over-month revenue growth */
-WITH monthly_revenue AS (
-    SELECT
-        DATE_FORMAT(
-            o.order_purchase_timestamp,
-            '%Y-%m'
-        ) AS month,
-        SUM(p.payment_value) AS revenue
-    FROM olist_orders_dataset o
-    JOIN olist_order_payments_dataset p
-        ON o.order_id = p.order_id
-    GROUP BY DATE_FORMAT(
-        o.order_purchase_timestamp,
-        '%Y-%m'
-    )
-),
-monthly_comparison AS (
-    SELECT
-        month,
-        revenue,
-        LAG(revenue) OVER (
-            ORDER BY month
-        ) AS previous_month_revenue
-    FROM monthly_revenue
-)
-SELECT
-    month,
-    ROUND(revenue, 2) AS revenue,
-    ROUND(previous_month_revenue, 2) AS previous_month_revenue,
-    ROUND(
-        100 * (revenue - previous_month_revenue)
-        / NULLIF(previous_month_revenue, 0),
-        2
-    ) AS growth_percentage
-FROM monthly_comparison
-ORDER BY month;
-
-
-/* Extra 3. Ranked top sellers by revenue */
+/* Extra 2. Ranked top sellers by revenue */
 WITH seller_revenue AS (
     SELECT
         seller_id,
