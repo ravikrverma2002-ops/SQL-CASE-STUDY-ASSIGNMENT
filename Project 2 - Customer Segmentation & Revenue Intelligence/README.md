@@ -165,4 +165,3 @@ This project uses SQL across 16 business questions to build a customer intellige
 - MySQL 8.0
 - MySQL Workbench
 - GitHub
-
