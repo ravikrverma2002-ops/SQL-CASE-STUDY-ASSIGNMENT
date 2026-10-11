@@ -18,7 +18,7 @@ customer_id VARCHAR(32),
 order_status VARCHAR(32),
 order_purchase_timestamp DATETIME,
 order_approved_at DATETIME,
-order_deliverd_carrier_date DATETIME,
+order_delivered_carrier_date DATETIME,
 order_delivered_customer_date DATETIME,
 order_estimated_delivery_date DATETIME
 );
