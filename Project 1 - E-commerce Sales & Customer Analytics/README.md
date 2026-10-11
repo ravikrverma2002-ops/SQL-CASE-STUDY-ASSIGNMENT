@@ -34,7 +34,7 @@ The goal of this project is to analyze that data and answer key business questio
 
 ## Dataset
 
-**Dataset:** Brazilian E-Commerce Public Dataset by Olist
+**Dataset:** [Brazilian E-Commerce Public Dataset by Olist](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce)
 
 The dataset contains information about orders, customers, products, sellers, payments, reviews, product categories, and geolocation.
 
