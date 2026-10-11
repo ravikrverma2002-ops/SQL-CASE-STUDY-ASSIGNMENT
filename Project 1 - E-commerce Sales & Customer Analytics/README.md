@@ -229,9 +229,7 @@ Based on the analysis, businesses can use the findings to:
 │
 ├── README.md
 │
-├── ecommerce_sales_customer_analytics.sql
-│
-├── E-Commerce.sql
+├── Brazilian E-commerce.sql
 │
 ├── Project Questions.sql
 │
