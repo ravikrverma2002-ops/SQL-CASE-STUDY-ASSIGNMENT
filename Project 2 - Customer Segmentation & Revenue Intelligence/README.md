@@ -154,7 +154,7 @@ This project uses SQL across 16 business questions to build a customer intellige
 
 1. Download `Chinook_MySql.sql` from https://github.com/lerocha/chinook-database.
 2. Open MySQL Workbench (or any MySQL 8.0+ client) and run the full script. It drops and recreates the `Chinook` database.
-3. Run `Chinook Customer Segmentation.sql` to execute the analysis.
+3. Run `Project Questions.sql` to execute the analysis.
 
 **Requirements:** MySQL 8.0 or later (window functions and CTEs are required).
 
