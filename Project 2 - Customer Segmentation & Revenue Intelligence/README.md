@@ -63,7 +63,7 @@ The core tables used in this analysis:
 
 ## 5. SQL Queries
 
-All queries are in `Chinook Customer Segmentation.sql`, in the order of the business questions above. Each query has a comment explaining the business question it answers.
+All queries are in `Project Questions.sql`, in the order of the business questions above. Each query has a comment explaining the business question it answers.
 
 To reproduce the analysis, run the queries in order after the database is set up (see Setup below).
 
