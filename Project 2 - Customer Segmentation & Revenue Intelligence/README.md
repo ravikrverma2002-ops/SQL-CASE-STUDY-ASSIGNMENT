@@ -44,28 +44,7 @@ The core tables used in this analysis:
 
 ---
 
-## 4. Business Questions
-
-1. Who are the highest-spending customers?
-2. Who are the most frequent purchasers?
-3. Which customers have not purchased recently?
-4. Which countries have the highest-value customers?
-5. What is the average customer lifetime spending?
-6. Which genres are most popular?
-7. Which artists generate the highest revenue?
-8. Which tracks are purchased most frequently?
-9. How can customers be segmented into High, Medium and Low Value?
-10. How do customers rank by spending within each country?
-11. Which customers spend above average?
-12. Who are the top 3 customers in each country?
-13. Which customers have purchased from multiple genres?
-14. What percentage of total revenue does each customer contribute?
-15. What is the cumulative revenue over time, and is it growing?
-16. Which month generated the highest revenue?
-
----
-
-## 5. SQL Concepts Used
+## 4. SQL Concepts Used
 
 - SELECT, WHERE, ORDER BY, LIMIT
 - GROUP BY with aggregate functions (`SUM`, `COUNT`, `AVG`, `MAX`, `MIN`)
@@ -82,7 +61,7 @@ The core tables used in this analysis:
 
 ---
 
-## 6. SQL Queries
+## 5. SQL Queries
 
 All queries are in `Chinook Customer Segmentation.sql`, in the order of the business questions above. Each query has a comment explaining the business question it answers.
 
@@ -90,7 +69,7 @@ To reproduce the analysis, run the queries in order after the database is set up
 
 ---
 
-## 7. Key Findings
+## 6. Key Findings
 
 **Revenue and customer value**
 - Total revenue is 2,328.60 across 59 customers.
@@ -132,7 +111,7 @@ The three segments contribute similar shares of revenue. The gap in average spen
 
 ---
 
-## 8. Business Recommendations
+## 7. Business Recommendations
 
 - **Protect high-value customers.** The High Value segment generates about 37% of revenue from a third of customers. Loyalty offers and priority support are appropriate here.
 - **Re-engage lapsed customers.** Use the Q3 list to target customers with no recent purchases, starting with those who were previously high spenders.
@@ -144,7 +123,7 @@ The three segments contribute similar shares of revenue. The gap in average spen
 
 ---
 
-## 9. Conclusion
+## 8. Conclusion
 
 This project uses SQL across 16 business questions to build a customer intelligence view of the Chinook database. It covers customer value, segmentation, geographic performance, catalogue sales, and revenue trends. The analysis shows that revenue is spread evenly across customers, which lowers the risk of losing any single account. Rock and Latin drive the catalogue, the USA is the largest market, and revenue is flat across the months shown.
 
