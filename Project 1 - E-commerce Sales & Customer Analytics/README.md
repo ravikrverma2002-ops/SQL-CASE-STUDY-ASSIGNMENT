@@ -229,8 +229,6 @@ Based on the analysis, businesses can use the findings to:
 │
 ├── README.md
 │
-├── Brazilian E-commerce.sql
-│
 ├── Project Questions.sql
 │
 └── Screenshots
