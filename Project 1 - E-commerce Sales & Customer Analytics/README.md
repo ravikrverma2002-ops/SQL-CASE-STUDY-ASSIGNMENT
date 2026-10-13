@@ -10,28 +10,6 @@ The analysis uses multiple related tables from the Olist dataset and demonstrate
 
 ---
 
-## Business Problem
-
-An e-commerce business generates large amounts of transactional, customer, product, seller, payment, delivery, and review data.
-
-The goal of this project is to analyze that data and answer key business questions such as:
-
-- How much revenue is being generated?
-- How are sales changing over time?
-- Which product categories and products perform best?
-- Which sellers generate the most revenue?
-- Which customer locations generate the most sales?
-- What is the average order value?
-- Which payment methods are most commonly used?
-- How long does delivery take?
-- Which categories receive the best customer ratings?
-- Do late deliveries affect customer satisfaction?
-- Who are the highest-value customers?
-- What percentage of orders are cancelled?
-- Which categories generate strong sales but have poor customer ratings?
-
----
-
 ## Dataset
 
 **Dataset:** [Brazilian E-Commerce Public Dataset by Olist](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce)
@@ -73,6 +51,8 @@ These relationships allow information from different parts of the e-commerce sys
 ---
 
 ## Business Questions
+
+An e-commerce business generates large amounts of transactional, customer, product, seller, payment, delivery, and review data. 
 
 The project answers the following questions:
 
