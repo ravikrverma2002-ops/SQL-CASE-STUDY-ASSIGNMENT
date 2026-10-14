@@ -4,7 +4,7 @@ A customer intelligence analysis of the Chinook digital music store database. Th
 
 ---
 
-## 1. Business Problem
+## Business Problem
 
 A digital media company wants to build a customer intelligence system from its sales database. The goal is to identify:
 
@@ -15,18 +15,16 @@ A digital media company wants to build a customer intelligence system from its s
 
 ---
 
-## 2. Dataset
+## Dataset
 
 **Chinook Database** (sample digital music store database)
 Source: https://github.com/lerocha/chinook-database
 
 The database contains customers, invoices, invoice line items, tracks, albums, artists, genres, and employees. Analysis covers 59 customers and 2,328.60 in total revenue.
 
-*Note: Chinook is a sample dataset, not real company data. Several values repeat across customers and months, so the findings describe this dataset and show the analytical approach, not real business performance.*
-
 ---
 
-## 3. Database Schema
+## Database Schema
 
 The core tables used in this analysis:
 
@@ -44,7 +42,7 @@ The core tables used in this analysis:
 
 ---
 
-## 4. SQL Concepts Used
+## SQL Concepts Used
 
 - SELECT, WHERE, ORDER BY, LIMIT
 - GROUP BY with aggregate functions (`SUM`, `COUNT`, `AVG`, `MAX`, `MIN`)
@@ -61,7 +59,7 @@ The core tables used in this analysis:
 
 ---
 
-## 5. SQL Queries
+## SQL Queries
 
 All queries are in `Project Questions.sql`, in the order of the business questions above. Each query has a comment explaining the business question it answers.
 
@@ -69,7 +67,7 @@ To reproduce the analysis, run the queries in order after the database is set up
 
 ---
 
-## 6. Key Findings
+## Key Findings
 
 **Revenue and customer value**
 - Total revenue is 2,328.60 across 59 customers.
@@ -111,7 +109,7 @@ The three segments contribute similar shares of revenue. The gap in average spen
 
 ---
 
-## 7. Conclusion
+## Conclusion
 
 This project uses SQL across 16 business questions to build a customer intelligence view of the Chinook database. It covers customer value, segmentation, geographic performance, catalogue sales, and revenue trends. The analysis shows that revenue is spread evenly across customers, which lowers the risk of losing any single account. Rock and Latin drive the catalogue, the USA is the largest market, and revenue is flat across the months shown.
 
