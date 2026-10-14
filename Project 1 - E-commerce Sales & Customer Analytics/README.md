@@ -50,37 +50,6 @@ These relationships allow information from different parts of the e-commerce sys
 
 ---
 
-## Business Questions
-
-An e-commerce business generates large amounts of transactional, customer, product, seller, payment, delivery, and review data. 
-
-The project answers the following questions:
-
-1. What is the total number of orders and total revenue?
-2. What are the monthly sales trends?
-3. What are the yearly sales trends?
-4. Which product categories generate the highest revenue?
-5. Which products have the highest sales volume?
-6. Which sellers generate the highest revenue?
-7. Which customer states generate the most sales?
-8. What is the average order value?
-9. What are the most commonly used payment methods?
-10. What is the average delivery time?
-11. Which product categories have the highest customer ratings?
-12. Are late deliveries associated with lower customer review scores?
-13. Who are the top customers by spending?
-14. What percentage of orders are cancelled?
-15. Which categories have high sales but poor customer ratings?
-
-### Additional Portfolio Analyses
-
-To demonstrate advanced SQL techniques, the project also includes:
-
-16. Who belongs to the top 10% of customers by spending?
-17. Which sellers rank highest by revenue?
-
----
-
 ## SQL Concepts Demonstrated
 
 This project demonstrates practical use of:
@@ -107,42 +76,6 @@ This project demonstrates practical use of:
 
 ---
 
-## Key Analysis Areas
-
-### 1. Sales Performance
-
-Sales data is analyzed at monthly and yearly levels to understand revenue and order trends over time.
-
-### 2. Product & Category Performance
-
-Product and category analysis identifies the products and categories generating the highest sales volume and revenue.
-
-### 3. Seller Performance
-
-Seller-level analysis identifies the highest-revenue sellers and ranks them based on sales performance.
-
-### 4. Customer Analysis
-
-Customer spending and geographic information are analyzed to identify high-value customers and locations generating the most sales.
-
-### 5. Payment Analysis
-
-Payment data is used to understand the most frequently used payment methods and their transaction values.
-
-### 6. Delivery Performance
-
-Order timestamps are used to calculate average delivery time and classify deliveries as on-time or late.
-
-### 7. Customer Satisfaction
-
-Review scores are analyzed by product category and compared with delivery performance to understand potential relationships between operational performance and customer satisfaction.
-
-### 8. High-Sales / Low-Rating Categories
-
-Categories with strong revenue performance but weaker customer ratings are identified for further investigation.
-
----
-
 ## Advanced SQL Analysis
 
 ### Top 10% Customers
@@ -156,25 +89,6 @@ This helps identify the business's highest-value customer segment.
 `RANK()` is used to rank sellers based on total revenue.
 
 These analyses demonstrate the use of SQL window functions for business analysis.
-
----
-
-## Business Insights
-
-The analysis is designed to identify:
-
-- Overall sales and revenue performance
-- Changes in sales over time
-- High-performing product categories
-- High-volume products
-- Top-performing sellers
-- High-value customers
-- Important customer markets by state
-- Customer payment preferences
-- Delivery performance
-- Relationship between delivery delays and customer satisfaction
-- Categories requiring attention because of strong sales but weaker ratings
-- Revenue growth and changes between months
 
 ---
 
