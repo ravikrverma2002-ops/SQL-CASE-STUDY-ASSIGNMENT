@@ -111,19 +111,7 @@ The three segments contribute similar shares of revenue. The gap in average spen
 
 ---
 
-## 7. Business Recommendations
-
-- **Protect high-value customers.** The High Value segment generates about 37% of revenue from a third of customers. Loyalty offers and priority support are appropriate here.
-- **Re-engage lapsed customers.** Use the Q3 list to target customers with no recent purchases, starting with those who were previously high spenders.
-- **Grow the Medium and Low segments.** Their average spend is 38.12 and 37.57. Bundles or genre recommendations, using the multi-genre customers from Q13 as a model, could raise spending.
-- **Invest in Rock and Latin.** These genres generate most of the revenue, so catalogue expansion and promotion should focus there.
-- **Review the catalogue for weak tracks.** With few tracks selling more than 2 units, promotion may be more effective than catalogue expansion for individual titles.
-- **Plan promotions around peak months.** January 2022 was the highest-revenue month, so plan campaigns in the lead-up to it.
-- **Find new revenue, since current revenue is flat.** Flat monthly revenue means growth has to come from new customers, higher spend per customer, or new catalogue.
-
----
-
-## 8. Conclusion
+## 7. Conclusion
 
 This project uses SQL across 16 business questions to build a customer intelligence view of the Chinook database. It covers customer value, segmentation, geographic performance, catalogue sales, and revenue trends. The analysis shows that revenue is spread evenly across customers, which lowers the risk of losing any single account. Rock and Latin drive the catalogue, the USA is the largest market, and revenue is flat across the months shown.
 
