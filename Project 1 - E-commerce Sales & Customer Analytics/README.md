@@ -76,22 +76,6 @@ This project demonstrates practical use of:
 
 ---
 
-## Advanced SQL Analysis
-
-### Top 10% Customers
-
-`NTILE(10)` is used to divide customers into ten spending groups and identify the highest-spending decile.
-
-This helps identify the business's highest-value customer segment.
-
-### Seller Ranking
-
-`RANK()` is used to rank sellers based on total revenue.
-
-These analyses demonstrate the use of SQL window functions for business analysis.
-
----
-
 ## Business Recommendations
 
 Based on the analysis, businesses can use the findings to:
